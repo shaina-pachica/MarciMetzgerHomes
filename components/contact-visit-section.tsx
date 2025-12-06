@@ -127,7 +127,7 @@ export function ContactVisitSection() {
                     <p className="font-semibold text-primary mb-1">Phone</p>
                     <a
                       href="tel:2069196886"
-                      className="text-muted-foreground hover:text-foreground transition-colors"
+                      className="text-muted-foreground hover:text-accent transition-colors"
                     >
                       (206) 919-6886
                     </a>
@@ -142,7 +142,7 @@ export function ContactVisitSection() {
                     <p className="font-semibold text-primary mb-1">Email</p>
                     <a
                       href="mailto:marci@realestate.com"
-                      className="text-muted-foreground hover:text-foreground transition-colors"
+                      className="text-muted-foreground hover:text-accent transition-colors"
                     >
                       marci@realestate.com
                     </a>
@@ -155,7 +155,9 @@ export function ContactVisitSection() {
                   </div>
                   <div>
                     <p className="font-semibold text-primary mb-1">Location</p>
-                    <p className="text-muted-foreground">Pahrump, Nevada</p>
+                    <p className="text-muted-foreground">
+                      3190 HW 160, Suite F, Pahrump, NV, United States, Nevada
+                    </p>
                   </div>
                 </div>
 
@@ -164,12 +166,15 @@ export function ContactVisitSection() {
                     <Clock className="h-6 w-6 text-accent" />
                   </div>
                   <div>
-                    <p className="font-semibold text-primary mb-1">Hours</p>
-                    <p className="text-muted-foreground">
-                      Monday - Friday: 9am - 6pm
+                    <p className="font-semibold text-primary mb-1">
+                      Office Hours
                     </p>
                     <p className="text-muted-foreground">
-                      Saturday - Sunday: 10am - 4pm
+                      OPEN DAILY 8:00 am - 7:00 pm
+                    </p>
+                    <p className="text-muted-foreground">
+                      Appointments outside office hours available upon request.
+                      Just call!
                     </p>
                   </div>
                 </div>
