@@ -61,7 +61,7 @@ export function Header() {
   return (
     <header
       className={`z-50 transition-all duration-300 ${
-        isScrolled ? 'sticky top-0 z-50 backdrop-blur' : 'absolute top-0 w-full'
+        isScrolled && !isOpen ? 'sticky top-0 z-50 backdrop-blur' : `absolute top-0 w-full ${isOpen ? "backdrop-blur ":""}`
       }`}
     >
       <div className="container max-w-6xl mx-auto px-4">
@@ -92,7 +92,7 @@ export function Header() {
               >
                 {item.label}
               </button>
-            ))}
+            ))} 
           </nav>
 
           {/* Mobile Menu Button */}
